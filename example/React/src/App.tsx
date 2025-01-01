@@ -3,8 +3,8 @@ import { DevBot } from 'devbots';
 const App = () => {
   return (
     <DevBot
-      apiKey="your_api_key_here"
-      title="Chat with us"
+      apiKey="your_api_key"
+      title="your_title"
     />
   )
 }

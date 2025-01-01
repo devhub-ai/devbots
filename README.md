@@ -1,16 +1,12 @@
-<table>
-  <tr>
-    <td>
-      <a href="https://www.npmjs.com/package/devbots">
-        <img src="https://i.ibb.co/Qc6T9mp/logo.png" width="70px" alt="Universal Box Logo">
-      </a>
-    </td>
-    <td>
-      <h1>DevBots</h1>
-      <p>Your go-to solution for creating and integrating chatbots seamlessly into your websites and applications.</p>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; align-items: center; gap: 20px;">
+  <a href="https://www.npmjs.com/package/devbots">
+    <img src="https://i.ibb.co/Qc6T9mp/logo.png" width="100px" alt="Universal Box Logo">
+  </a>
+  <div>
+    <h1 style="margin: 0;">DevBots</h1>
+    <p style="margin: 0;">Your go-to solution for creating and integrating chatbots seamlessly into your websites and applications.</p>
+  </div>
+</div>
 
 ## 📖 Props
 
