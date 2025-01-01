@@ -1,6 +1,6 @@
 {
   "name": "devbots",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React component for embedding the DevBot chat widget",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -15,8 +15,8 @@
     "widget",
     "devbots"
   ],
-  "author": "Your Name",
-  "license": "MIT",
+  "author": "Deepraj Bera",
+  "license": "Apache 2.0",
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
