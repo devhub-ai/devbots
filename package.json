@@ -1,6 +1,6 @@
 {
   "name": "devbots",
-  "version": "1.0.4",
+  "version": "0.0.1",
   "description": "A React component for embedding the DevBot chat widget",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -13,7 +13,9 @@
     "react",
     "chatbot",
     "widget",
-    "devbots"
+    "devbots",
+    "prompting",
+    "genAI"
   ],
   "author": "Deepraj Bera",
   "license": "Apache 2.0",
