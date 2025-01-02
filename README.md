@@ -1,4 +1,8 @@
 # DevBots
+![NPM Version](https://img.shields.io/npm/v/devbots)
+![NPM Downloads](https://img.shields.io/npm/d18m/devbots)
+![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/devbots)
+
 Your go-to solution for creating and integrating chatbots seamlessly into your websites and applications.
 
 ### Get API Key
@@ -44,7 +48,7 @@ npm i devbots
     }
     ```
     Example File : [App.tsx](./examples/React/src/App.tsx)<br/>
-    Deployed Link : 
+    Deployed Link : [devbots-example-react](https://devbots-example-html.netlify.app)
 
 2. Html
     ```javascript
@@ -55,8 +59,8 @@ npm i devbots
       });
     </script>
     ```
-    Example File : [index.html](./examples/Html/index.html)
-    Deployed Link : 
+    Example File : [index.html](./examples/Html/index.html)<br/>
+    Deployed Link : [devbots-example-html](https://devbots-example-html.netlify.app)
 
 ### License
 
