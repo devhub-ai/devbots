@@ -1,6 +1,6 @@
 {
   "name": "devbots",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React component for embedding the DevBot chat widget",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -35,5 +35,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "devbots": "^0.0.2"
+  }
 }

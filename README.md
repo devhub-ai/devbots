@@ -2,6 +2,8 @@
 ![NPM Version](https://img.shields.io/npm/v/devbots)
 ![NPM Downloads](https://img.shields.io/npm/d18m/devbots)
 ![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/devbots)
+![NPM Type Definitions](https://img.shields.io/npm/types/devbots)
+
 
 Your go-to solution for creating and integrating chatbots seamlessly into your websites and applications.
 
@@ -19,9 +21,26 @@ For more information explore DevBots [Docs](https://devbots.vercel.app/docs/devb
 
 ### Installation
 
-```bash
-npm i devbots
-```
+1. npm
+
+    ```bash
+    npm i devbots
+    ```
+2. pnpm
+
+    ```bash
+    pnpm add devbots
+    ```
+3. yarn
+
+    ```bash
+    yarn add devbots
+    ```
+4. bun
+
+    ```bash
+    bun add devbots
+    ```
 
 ### Props
 
@@ -62,14 +81,12 @@ npm i devbots
     Example File : [index.html](./examples/Html/index.html)<br/>
     Deployed Link : [devbots-example-html](https://devbots-example-html.netlify.app)
 
-### License
+## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details.
 
-### Support
+## Support and Contribution
 
 Need help? Visit our [documentation](https://devbots.vercel.app/docs/get-started) or [contact us](https://devbots.vercel.app/contact).
-
-### Contribution
 
 We welcome contributions! Please feel free to submit a Pull Request.
