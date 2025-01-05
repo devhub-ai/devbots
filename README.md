@@ -6,8 +6,9 @@
 
 
 Your go-to solution for creating and integrating chatbots seamlessly into your websites and applications.
+Devbots can be used from [devbots.vercel.app](https://devbots.vercel.app) and also available as [CLI](https://devbots.vercel.app/docs/cliInstallation) tool to create your prompted chatbot and easy integration into your websites.
 
-### Get API Key
+## Get API Key
 
 To customize your devbot:
 
@@ -19,7 +20,7 @@ To customize your devbot:
 
 For more information explore DevBots [Docs](https://devbots.vercel.app/docs/devbots)
 
-### Installation
+## Installation
 
 1. npm
 
@@ -80,6 +81,37 @@ For more information explore DevBots [Docs](https://devbots.vercel.app/docs/devb
     ```
     Example File : [index.html](./examples/Html/index.html)<br/>
     Deployed Link : [devbots-example-html](https://devbots-example-html.netlify.app)
+  
+## CLI
+
+### Installation
+
+```bash
+npm i -g devbots
+```
+
+### Commands
+
+1. help
+
+    ```bash
+    devbots help
+    ```
+    - It will show you available commands.
+
+2. create devbot
+
+    ```bash
+    devbots create "title" "prompt"
+    ```
+    - It will generate an `API_KEY`.
+
+3. chat with devbot
+
+    ```bash
+    devbots chat "API_KEY" "query"
+    ```
+
 
 ## License
 

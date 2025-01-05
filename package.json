@@ -1,13 +1,17 @@
 {
   "name": "devbots",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A React component for embedding the DevBot chat widget",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "devbots": "./bin/cli.js"
   },
   "keywords": [
     "react",
@@ -37,6 +41,9 @@
     "dist"
   ],
   "dependencies": {
-    "devbots": "^0.0.2"
+    "axios": "^0.21.1",
+    "yargs": "^17.0.1",
+    "ora": "^6.0.0",
+    "chalk": "^5.0.0"
   }
 }
