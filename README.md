@@ -45,10 +45,10 @@ For more information explore DevBots [Docs](https://devbots.vercel.app/docs/devb
 
 ### Props
 
-| Prop | Type | Description | Required
-|-----|-----|-----|-----
-| apiKey | string | Your DevBots API key | Yes
-| title | string | Chat widget title | Yes
+| Sl No. | Prop | Type | Description | Required
+|-----|-----|-----|-----|-----
+| 1 | apiKey | string | Your DevBots API key | Yes
+| 2 | title | string | Chat widget title | Yes
 
 ### Example Usage
 
@@ -67,8 +67,8 @@ For more information explore DevBots [Docs](https://devbots.vercel.app/docs/devb
       );
     }
     ```
-    Example File : [App.tsx](./examples/React/src/App.tsx)<br/>
-    Deployed Link : [devbots-example-react](https://devbots-example-html.netlify.app)
+    Example File : [App.tsx](https://github.com/devhub-ai/devbots/blob/main/examples/React/src/App.tsx)<br/>
+    Deployed Link : [devbots-example-react](https://devbots-example-react.vercel.app)
 
 2. Html
     ```javascript
@@ -79,8 +79,8 @@ For more information explore DevBots [Docs](https://devbots.vercel.app/docs/devb
       });
     </script>
     ```
-    Example File : [index.html](./examples/Html/index.html)<br/>
-    Deployed Link : [devbots-example-html](https://devbots-example-html.netlify.app)
+    Example File : [index.html](https://github.com/devhub-ai/devbots/blob/main/examples/Html/index.html)<br/>
+    Deployed Link : [devbots-example-html](https://devbots-example-html.vercel.app)
   
 ## CLI
 
@@ -112,13 +112,28 @@ npm i -g devbots
     devbots chat "API_KEY" "query"
     ```
 
+## Features of [DevBots](https://devbots.vercel.app)
+
+1. Create, Update and Delete your *Preprompted private **devbot***.
+2. Get ***Free API KEY*** for your customized devbot.
+3. ***CDN*** for embedding your customized devbot.
+4. See the ***Analytics** (IP, DEVICE, RES etc)* of your devbot.
+5. Create ***Projects*** to group your devbot.
+6. Make your *devbot **public** for use to **Marketplace***. 
+7. ***Fork** others devbot* from marketplace to your project.
+8. ***Activity** section* to get a ***log*** of everything with timestamp.
+9. Get your ***Auth log*** from profile section.
 
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details.
 
-## Support and Contribution
+## Support
 
 Need help? Visit our [documentation](https://devbots.vercel.app/docs/get-started) or [contact us](https://devbots.vercel.app/contact).
 
-We welcome contributions! Please feel free to submit a Pull Request.
+## Creator
+
+Deepraj Bera <br/>
+[Github](http://github.com/deepraj21)<br/>
+[LinkedIn](https://www.linkedin.com/in/deepraj-bera-b64996231)

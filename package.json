@@ -1,7 +1,7 @@
 {
   "name": "devbots",
-  "version": "0.0.4",
-  "description": "A React component for embedding the DevBot chat widget",
+  "version": "0.0.6",
+  "description": "package for embedding your preprompted devbot chat widget into your applications",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",

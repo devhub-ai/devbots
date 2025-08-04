@@ -4,7 +4,7 @@ import './App.css'
 import { DevBot } from 'devbots';
 
 function App() {
-  const API_KEY = "650920407e703c99b1f4edf93ec081aa8b971d22201771632fee9918f3c32263";
+  const API_KEY = "b9358933b9e6f3d1aac5425e5aac63ea883c1573b6e4ccf57cb652db0f5766f6";
   const TITLE = "DevBots Support"
   return (
     <>
@@ -17,10 +17,13 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+
+      {/* Devbot */}
       <DevBot
         apiKey={API_KEY}
         title={TITLE}
       />
+
     </>
   )
 }
