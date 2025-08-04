@@ -41,7 +41,7 @@
     "dist"
   ],
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.7.8",
     "yargs": "^17.0.1",
     "ora": "^6.0.0",
     "chalk": "^5.0.0"
